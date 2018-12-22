@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 import scipy.stats as stats
 import pymc as pm
 
-count_data = np.loadtxt("data/txtdata.csv")
+count_data = np.loadtxt("txtdata.csv")
 n_count_data = len(count_data)
 plt.bar(np.arange(n_count_data), count_data, color="#348ABD")
 plt.xlabel("Time (days)")
